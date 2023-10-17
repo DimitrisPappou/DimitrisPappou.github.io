@@ -1,0 +1,2 @@
+$ curl --output /dev/null --silent --head --fail dimitrispappou.github.io \
+&& echo "URL exists" || echo "URL does not exist"
