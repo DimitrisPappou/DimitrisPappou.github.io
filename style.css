@@ -1,3 +1,53 @@
-p {
-    color: red;
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 1;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+button:hover, nav a:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: left;
+    }
 }
