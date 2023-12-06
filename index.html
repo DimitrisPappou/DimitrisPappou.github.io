@@ -22,10 +22,10 @@
             var iframe = document.getElementById("website");
             var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
 
-            // Modify styles inside the iframe (example: hide element by ID)
+            // Remove the element with ID "WIX_ADS"
             var adsElement = iframeDocument.getElementById("WIX_ADS");
             if (adsElement) {
-                adsElement.style.display = "none"; // Hide the element with ID "WIX_ADS"
+                adsElement.remove(); // Remove the element with ID "WIX_ADS"
             }
         });
     </script>
