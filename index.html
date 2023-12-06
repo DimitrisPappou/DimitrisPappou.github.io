@@ -12,10 +12,23 @@
 
         #website {
             width: 100%;
-            height: 100vh; /* Set iframe height to full viewport height */
-            border: none; /* Remove iframe border */
+            height: 100vh;
+            border: none;
         }
     </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Access the iframe content
+            var iframe = document.getElementById("website");
+            var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+
+            // Modify styles inside the iframe (example: hide header)
+            var headerElement = iframeDocument.getElementById("headerId"); // Replace "headerId" with the actual ID of the header
+            if (headerElement) {
+                headerElement.style.display = "none"; // Hide the header
+            }
+        });
+    </script>
 </head>
 <body>
     <iframe id="website" src="https://dimitrispappou.wixsite.com/github-dimitrispappo"></iframe>
