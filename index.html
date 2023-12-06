@@ -23,7 +23,7 @@
             var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
 
             // Modify styles inside the iframe (example: hide header)
-            var headerElement = iframeDocument.getElementById("headerId"); // Replace "headerId" with the actual ID of the header
+            var headerElement = iframeDocument.querySelector('[data-testid="linkElement"]');
             if (headerElement) {
                 headerElement.style.display = "none"; // Hide the header
             }
