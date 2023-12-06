@@ -22,10 +22,10 @@
             var iframe = document.getElementById("website");
             var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
 
-            // Modify styles inside the iframe (example: hide header)
-            var headerElement = iframeDocument.querySelector('[data-testid="linkElement"]');
-            if (headerElement) {
-                headerElement.style.display = "none"; // Hide the header
+            // Modify styles inside the iframe (example: hide element by ID)
+            var adsElement = iframeDocument.getElementById("WIX_ADS");
+            if (adsElement) {
+                adsElement.style.display = "none"; // Hide the element with ID "WIX_ADS"
             }
         });
     </script>
