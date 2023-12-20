@@ -117,34 +117,33 @@ footer ul li a img {
 /* Responsive styles for mobile screens */
 @media (max-width: 480px) {
     body {
-        padding: 0 15px; /* Add padding on the sides for small screens */
+        padding: 0 15px;
     }
 
     header {
-        text-align: center; /* Center header content */
+        text-align: center;
     }
 
     nav ul {
-        padding: 0; /* Remove padding */
-        display: block; /* Stack list items vertically */
+        padding: 0;
+        display: block;
     }
 
     nav ul li {
-        display: block; /* Stack list items vertically */
-        margin: 0; /* Remove margin */
+        display: block;
+        margin: 0;
     }
 
     nav ul li a {
-        display: block; /* Make each link fill the list item */
-        margin: 10px 0; /* Add some vertical spacing between links */
+        display: block;
+        margin: 10px 0;
     }
 
     footer ul li a img {
-        height: 25px; /* Smaller social icons for mobile */
+        height: 25px;
     }
 
-    /* Adjust section padding for mobile screens */
     section {
-        padding: 1em 0;
+        padding: 1em 0.5em;
     }
 }
