@@ -53,6 +53,10 @@ section + section {
     border-radius: 50%;
 }
 
+#projects div h3 a {
+    color: #000;
+    text-decoration: solid underline;
+}
 
 footer {
     background-color: #000;
@@ -143,6 +147,7 @@ footer ul li a img {
         height: 25px;
     }
 
+    /* Adjust section padding for mobile screens */
     section {
         padding: 1em 0.5em;
     }
