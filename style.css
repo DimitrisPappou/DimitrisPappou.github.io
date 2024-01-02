@@ -98,6 +98,17 @@ footer ul li a img {
     animation: zoomInOut 1s ease;
 }
 
+/* Desktop and larger tablets */
+#darkModeToggle {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background: none;
+    border: none;
+    font-size: 1.5em; /* Adjust size as needed */
+    cursor: pointer;
+}
+
 /* Responsive styles for tablet screens */
 @media (max-width: 768px) {
     header, footer {
@@ -115,6 +126,23 @@ footer ul li a img {
 
     #home img {
         height: 100px;
+    }
+    
+        #darkModeToggle {
+        position: fixed;
+        bottom: 20px; /* Adjust as needed */
+        right: 20px; /* Adjust as needed */
+        width: 40px; /* Adjust size as needed */
+        height: 40px; /* Adjust size as needed */
+        border-radius: 50%;
+        background-color: #333; /* Adjust color as needed */
+        color: white;
+        border: none;
+        font-size: 20px; /* Adjust as needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; /* Ensure it's above other elements */
     }
 }
 
@@ -150,5 +178,22 @@ footer ul li a img {
     /* Adjust section padding for mobile screens */
     section {
         padding: 1em 0.5em;
+    }
+    
+        #darkModeToggle {
+        position: fixed;
+        bottom: 20px; /* Adjust as needed */
+        right: 20px; /* Adjust as needed */
+        width: 40px; /* Adjust size as needed */
+        height: 40px; /* Adjust size as needed */
+        border-radius: 50%;
+        background-color: #333; /* Adjust color as needed */
+        color: white;
+        border: none;
+        font-size: 20px; /* Adjust as needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; /* Ensure it's above other elements */
     }
 }
