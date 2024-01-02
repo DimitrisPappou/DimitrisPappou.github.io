@@ -57,3 +57,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Additional JavaScript functionalities can be added here
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+
+    darkModeToggle.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    });
+});
