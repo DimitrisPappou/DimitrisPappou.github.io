@@ -128,21 +128,21 @@ footer ul li a img {
         height: 100px;
     }
     
-        #darkModeToggle {
+    #darkModeToggle {
         position: fixed;
-        bottom: 20px; /* Adjust as needed */
-        right: 20px; /* Adjust as needed */
-        width: 40px; /* Adjust size as needed */
-        height: 40px; /* Adjust size as needed */
-        border-radius: 50%;
-        background-color: #333; /* Adjust color as needed */
-        color: white;
+        bottom: 20px; /* Distance from the bottom */
+        right: 20px; /* Distance from the right side */
+        width: 40px; /* Size of the button */
+        height: 40px; /* Size of the button */
+        border-radius: 50%; /* Makes it circular */
+        background-color: #333; /* Background color of the button */
+        color: white; /* Color of the text/icon */
         border: none;
-        font-size: 20px; /* Adjust as needed */
+        font-size: 20px; /* Size of the text/icon */
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 1000; /* Ensure it's above other elements */
+        z-index: 1000; /* Ensures it's above other elements */
     }
 }
 
@@ -180,20 +180,20 @@ footer ul li a img {
         padding: 1em 0.5em;
     }
     
-        #darkModeToggle {
+    #darkModeToggle {
         position: fixed;
-        bottom: 20px; /* Adjust as needed */
-        right: 20px; /* Adjust as needed */
-        width: 40px; /* Adjust size as needed */
-        height: 40px; /* Adjust size as needed */
-        border-radius: 50%;
-        background-color: #333; /* Adjust color as needed */
-        color: white;
+        bottom: 20px; /* Distance from the bottom */
+        right: 20px; /* Distance from the right side */
+        width: 40px; /* Size of the button */
+        height: 40px; /* Size of the button */
+        border-radius: 50%; /* Makes it circular */
+        background-color: #333; /* Background color of the button */
+        color: white; /* Color of the text/icon */
         border: none;
-        font-size: 20px; /* Adjust as needed */
+        font-size: 20px; /* Size of the text/icon */
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 1000; /* Ensure it's above other elements */
+        z-index: 1000; /* Ensures it's above other elements */
     }
 }
